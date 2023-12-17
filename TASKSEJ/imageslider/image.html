@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="image.css">
+    </head>
+    <body>
+<h2 style="margin-left: 450px;">IMAGE GALLERY WITH FILTERING</h2>
+<div style="    margin-left: 500px;" id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('oceans')"> Oceans</button>
+  <button class="btn" onclick="filterSelection('Island')"> Island</button>
+  <button class="btn" onclick="filterSelection('Hills')"> Hills</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column oceans">
+    <div class="content">
+      <img src="./Indian.jpg" alt="oceans" style="width:100%">
+      <h4>The Indian Ocean</h4>
+      <p>70,560,000 square kilometers</p>
+    </div>
+  </div>
+  <div class="column oceans">
+    <div class="content">
+      <img src="./pacific.jpg" alt="oceans" style="width:100%">
+      <h4>The Pacific Ocean</h4>
+      <p>168,723,000 square kilometers</p>
+    </div>
+  </div>
+  <div class="column oceans">
+    <div class="content">
+      <img src="./Atlantic.jpg" alt="oceans" style="width:100%">
+      <h4>The Atlantic Ocean</h4>
+      <p>85,133,000 square kilometers</p>
+    </div>
+  </div>
+
+  <div class="column Island">
+    <div class="content">
+      <img src="./Andaman and Nicobar Islands.jpg" alt="Island" style="width:100%">
+      <h4>Andaman and Nicobar Islands</h4>
+      <p>Archipelago Island</p>
+    </div>
+  </div>
+  <div class="column Island">
+    <div class="content">
+      <img src="./Canacona Island.jpg" alt="Island" style="width:100%">
+      <h4>Canacona  Island</h4>
+      <p>Continental Island</p>
+    </div>
+  </div>
+  <div class="column Island">
+    <div class="content">
+      <img src="./Lakshadweep islands.jpg" alt="Island" style="width:100%">
+      <h4>Lakshadweep Island</h4>
+      <p>coral islands</p>
+    </div>
+  </div>
+
+  <div class="column Hills">
+    <div class="content">
+      <img src="./lonavala.jpg" alt="People" style="width:100%">
+      <h4>Lonavla</h4>
+      <p> 622 metres (2,041 ft) above sea level</p>
+    </div>
+  </div>
+  <div class="column Hills">
+    <div class="content">
+      <img src="./munnar.jpg" alt="People" style="width:100%">
+      <h4>Munnar </h4>
+      <p>1600 m above the sea level</p>
+    </div>
+  </div>
+  <div class="column Hills">
+    <div class="content">
+      <img src="./darjeeling.jpg" alt="People" style="width:100%">
+      <h4>Darjeeling</h4>
+      <p> height of 2,590 m </p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div> 
+<footer>
+  <p>Author: Sejal Kadam</p>
+  <p><a >ksejal23mit@student.mes.ac.in</a></p>
+</footer>
+</body>
+<script src="image.js"></script>
+</html>
